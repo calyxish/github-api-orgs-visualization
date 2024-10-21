@@ -15,18 +15,22 @@ This repository serves as a valuable resource for developers, educators, and sta
 
 ## 2. Table of Contents
 
-- [Installation](#installation)
-- [Dependencies](#dependencies)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact Information](#contact-information)
-- [Acknowledgements](#acknowledgements)
+- [Project Preview](#3-project-preview)
+- [Installation](#4-installation)
+- [Dependencies](#5-dependencies)
+- [Usage](#6-usage)
+- [Contributing](#7-contributing)
+- [License](#8-license)
+- [Contact Information](#9-contact-information)
+- [Acknowledgements](#10-acknowledgements)
+
+
+## 3. Project Preview
 
 ![Project Preview](Visualizing%20GitHub%20Organizations.png)
 
 
-## 3. Installation
+## 4. Installation
 
 1. Clone the repository:
    ```sh markdown
@@ -46,14 +50,14 @@ This repository serves as a valuable resource for developers, educators, and sta
     pip install -r requirements.txt
    ```
 
-## 4. Dependencies
+## 5. Dependencies
    ```sh markdown
    requests
    plotly
 
    ```
 
-## 5. Usage
+## 6. Usage
 Set up your GitHub Personal Access Token: Replace the placeholder in the script with your actual GitHub personal access token. This token is necessary for authentication when making API requests.
    ```sh markdown
    TOKEN = 'your_personal_access_token'
@@ -66,23 +70,23 @@ Run the script: Execute the script to gather data and create the visualization
 
 ### How to Obtain Your GitHub Personal Access Token
 
-###### i. Sign in to GitHub:
+###### - i. Sign in to GitHub:
 Go to GitHub.com and sign in to your account.
 
-###### ii.
+###### - ii.
 Go to Settings
 Click on your profile picture in the upper right corner of the page and select Settings from the dropdown menu.
 
-###### iii. Access Developer Settings:
+###### - iii. Access Developer Settings:
 In the left sidebar, scroll down and click on Developer settings.
 
-###### iv. Personal Access Tokens:
+###### - iv. Personal Access Tokens:
 Click on Personal access tokens in the left sidebar. Then, select Tokens (classic).
 
-###### v. Generate New Token:
+###### - v. Generate New Token:
 Click the Generate new token button.
 
-###### vi. Configure Token:
+###### - vi. Configure Token:
 Note: Give your token a descriptive name in the Note field (e.g., "GitHub API Access").
 Expiration: Choose an expiration for your token (e.g., 30 days, 60 days, or no expiration).
 Select Scopes: Choose the scopes or permissions you want to grant this token. For general API access, you may want to select:
@@ -90,17 +94,17 @@ repo (for full control of private repositories)
 read:user (to read user profile data)
 user (for reading and writing user profile data)
 
-###### vii. Generate Token:
+###### - vii. Generate Token:
 After selecting the desired scopes, click the Generate token button at the bottom of the page.
 
-###### viii .Copy Your Token:
+###### - viii .Copy Your Token:
 Your new token will be displayed on the screen. Copy it immediately, as you won’t be able to see it again. Store it securely.
 
-###### Important Notes:
+###### -Important Notes:
 Treat your token like a password. Do not share it or expose it in your code (e.g., don't include it directly in your scripts or commit it to your repository).
 If you believe your token has been compromised, you can revoke it and generate a new one.
 
-## 6. Contributing
+## 7. Contributing
 
 Guidelines for contributing to your project.
 
@@ -115,15 +119,15 @@ Contributions are what make the open source community such an amazing place to b
 5. Open a Pull Request
 ```
 
-## 7. License
+## 8. License
 
 Distributed under ... Not Yet
 
-## 8. Contact Information
+## 9. Contact Information
 Calyx Ish
 GitHub: @calyxish
 
-## 8. Acknowledgements
+## 10. Acknowledgements
 
 ```sh markdown
 GitHub API for providing the necessary data.
