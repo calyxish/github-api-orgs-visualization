@@ -23,6 +23,7 @@ This repository serves as a valuable resource for developers, educators, and sta
 - [Contact Information](#contact-information)
 - [Acknowledgements](#acknowledgements)
 
+![Project Preview](Visualizing GitHub Organizations.png)
 
 ## 3. Installation
 
