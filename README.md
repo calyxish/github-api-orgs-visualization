@@ -100,7 +100,7 @@ After selecting the desired scopes, click the Generate token button at the botto
 - viii .Copy Your Token:
 Your new token will be displayed on the screen. Copy it immediately, as you won’t be able to see it again. Store it securely.
 
--Important Notes:
+### Important Notes:
 Treat your token like a password. Do not share it or expose it in your code (e.g., don't include it directly in your scripts or commit it to your repository).
 If you believe your token has been compromised, you can revoke it and generate a new one.
 
