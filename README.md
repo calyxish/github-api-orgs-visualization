@@ -70,23 +70,23 @@ Run the script: Execute the script to gather data and create the visualization
 
 ### How to Obtain Your GitHub Personal Access Token
 
-###### - i. Sign in to GitHub:
+- i. Sign in to GitHub:
 Go to GitHub.com and sign in to your account.
 
-###### - ii.
+- ii.
 Go to Settings
 Click on your profile picture in the upper right corner of the page and select Settings from the dropdown menu.
 
-###### - iii. Access Developer Settings:
+- iii. Access Developer Settings:
 In the left sidebar, scroll down and click on Developer settings.
 
-###### - iv. Personal Access Tokens:
+- iv. Personal Access Tokens:
 Click on Personal access tokens in the left sidebar. Then, select Tokens (classic).
 
-###### - v. Generate New Token:
+- v. Generate New Token:
 Click the Generate new token button.
 
-###### - vi. Configure Token:
+- vi. Configure Token:
 Note: Give your token a descriptive name in the Note field (e.g., "GitHub API Access").
 Expiration: Choose an expiration for your token (e.g., 30 days, 60 days, or no expiration).
 Select Scopes: Choose the scopes or permissions you want to grant this token. For general API access, you may want to select:
@@ -94,13 +94,13 @@ repo (for full control of private repositories)
 read:user (to read user profile data)
 user (for reading and writing user profile data)
 
-###### - vii. Generate Token:
+- vii. Generate Token:
 After selecting the desired scopes, click the Generate token button at the bottom of the page.
 
-###### - viii .Copy Your Token:
+- viii .Copy Your Token:
 Your new token will be displayed on the screen. Copy it immediately, as you won’t be able to see it again. Store it securely.
 
-###### -Important Notes:
+-Important Notes:
 Treat your token like a password. Do not share it or expose it in your code (e.g., don't include it directly in your scripts or commit it to your repository).
 If you believe your token has been compromised, you can revoke it and generate a new one.
 
